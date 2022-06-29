@@ -1,0 +1,59 @@
+
+/*NAV CATEGORIAS*/
+.categorias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 170px;
+}
+
+.categorias-navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.categorias-navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.categorias-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.categorias-navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+ }
+
+ /*"VENDA" DE CUPONS*/
+.cupons-sale-box{
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    background-color: blanchedalmond;
+}
+
+.cupons-show{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.cupom{
+    width: 200px;
+    height: 220px;
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+.cupom:hover{
+    cursor: pointer;
+}

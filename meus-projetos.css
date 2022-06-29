@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "FREDOKA ONE";
+    src: url('./FredokaOne-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+p{
+    font-family:"FREDOKA ONE";
+}
+a{
+    text-decoration:none;
+}
+main{
+    position:absolute;
+    top:200px;
+    z-index: 2;
+
+}
+#projeto{
+    display: inline-block;
+    margin: 195px 190px 153px 120px;
+}
+#projeto ul li{
+    cursor: pointer;
+    width:150px;
+    height:150px;
+    margin:20px;  
+    display:inline-block; 
+    background-color: rgb(0, 0, 0);
+
+}
+.title{
+    font-size: 50px;
+}

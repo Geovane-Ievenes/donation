@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "FREDOKA ONE";
+}
+
+@media all and (max-width:958px) {
+    nav ul {
+        margin-right: 0px;
+        float: left;
+    }
+    .cabecalho_site .logo {
+        padding-left: 30px;
+        width: 100%;
+    }
+    nav ul li, nav ul ul li {
+        display: block;
+        width: 100%;
+    }
+    nav ul ul {
+        top: 70px;
+        position: static;
+    }
+    .cabecalho_site .slogan {
+        z-index: 1;
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        font-size: 23px;
+        top: 6%;
+    }
+}
+.wrapper {
+    width: 90%;
+    height: 800px;
+    display: inline-grid;
+    justify-content: end;
+    align-content: space-between;
+}
+.div_infos {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.div_infos input, .div_infos textarea, .div_infos button {
+    padding-bottom: 5px;
+}
+input, textarea{
+    resize: none;
+    padding: 5px;
+    font-size: 18px;
+}
+input[type="file"]{
+    display: none;
+}
+.input-file-container label.img_slide {
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    height: 45px;
+    width: 340px;
+    background: #54719D;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 50px;
+    font-family: 'FREDOKA ONE';
+}
+
+#profile-img{
+    position:absolute;
+    top:35%;
+    left: 20%;
+    height:300px;
+    border: 2px solid #000;
+    background-color: #fefefe;
+}
+img.image {
+    border: 2px solid #000;
+}
+/*File Input*/
+#profile-pic{
+    position:absolute;
+}
+span.nome, span.meta, span.definicao, span.txt {
+    font-size: 20px;
+}
+
+.edit-slider{
+    position: absolute; 
+    top: 70%;
+    left: 8%;
+}
+.input-file-container {
+    text-align: center;
+}
+#submit-input{
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(84, 113, 157);
+}
+#submit-input:disabled {
+    background-color: rgba(84, 113, 157,0.5);
+}
+/*
+FOOTER
+*/
+footer{
+    width:100%;
+    position:absolute;
+    top:1100px;
+}

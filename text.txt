@@ -1,0 +1,9 @@
+<!--
+ID DAS CATEGORIAS DE CUPOM:
+1 - Calçados
+2 - Eletrodomésticos
+3 - Eletrônicos
+4 - Alimentícios (Supermercado)
+5 - Artigos Esportivos
+6 - Jogos
+-->

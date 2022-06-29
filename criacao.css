@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+}  
+label{
+    color: #000;
+}
+.cat_coupon{
+    font-size: 30px;
+} 
+input{
+    font-family: Roboto;
+}
+input[type=submit] {
+    background: #ffffff;
+    color: #f7980f;
+    border: 2px solid #f7980f;
+    border-radius: 20px;
+    width:350px;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+input[type=submit]:hover {
+    background: #f7980f;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.opcoes{
+    color: #000;
+    font-size: 20px;
+    font-family:"Roboto"
+}
+input[type=radio] {
+    margin-bottom: 5px;
+}
+input[type=text] {
+    color: #000;
+}
+.box-form{
+    position: absolute;
+    top: 170px;
+    left: 49%;
+    width: 400px;
+    height: 500px;
+    padding-left: 30px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;   
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.349);
+}
+.box-ilustration{
+    background-image: linear-gradient(to bottom right, #ff5757, #f7980f);
+    position: absolute;
+    top: 170px;
+    left: 18.5%;
+    width: 400px;
+    height: 500px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    box-shadow:  2px   rgba(0, 0, 0, 0.349);
+
+
+}
+.img-vector{
+    width: 400px;
+    margin-top: 60px;
+}
+h2{
+    color:#f7980f;
+    font-weight: bold;
+    font-size: 40px;
+    }
+input[type=text]{
+    background-color: #f7e7d0;
+    border: none;
+    height: 40px;
+    width:350px;
+    text-align: center;
+}
+input[type=number]{
+    margin-top:10px;
+    background-color: #f7e7d0;
+    border: none;
+    height: 40px;
+    width:350px;
+    text-align: center;
+}
+input[type=date]{
+    background-color: #f7e7d0;
+    border: none;
+    height: 40px;
+    width:350px;
+    text-align: center;
+}
+.date_coupon{
+    font-size: 30px;
+    
+}

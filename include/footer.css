@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin:0;
+}
+footer{
+    margin-top: 80px;
+    background-color:#54719D;
+    padding: 40px 0;
+}
+footer .donation{
+    position: absolute;
+    bottom: -170px;
+    left: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+footer .donation img{
+    position: absolute;
+    bottom: 45px;
+    left: 5px;
+    width: 125px;
+    height: auto;
+}
+footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+footer .social a {
+    color: inherit;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+footer .social a:hover {
+    opacity: 0.9;
+}
+footer .social a i {
+    color: #fff;
+}
+footer ul {
+    color: #fff;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+footer ul li a:hover {
+    
+    color: #ccc;
+}
+footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}

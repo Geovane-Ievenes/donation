@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "FREDOKA ONE";
+    src: url('../FredokaOne-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #d5dddf;
+    font-family: 'Roboto';
+    background-image: url('../imagens/cad-bg.png');
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    margin-top: 6.5%;
+}
+
+.content{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 950px;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 15px;
+}
+
+.content::before{
+    content: "";
+    position: relative;
+    background-image: linear-gradient(to bottom right, #ff5757, #f7980f);
+    width: 40%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+.title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    height: 70px;
+    font-family: "FREDOKA ONE";
+}
+
+.title-primary{
+    color: #f7980f;
+    font-size: 28px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: -20px;
+    font-family: "FREDOKA ONE";
+}
+
+.description{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.description-primary{
+    font-size: 18px;
+    color:#7f8c8d;
+    height: 46px;
+    margin-top: 31px;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #f7980f;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+    align-self: center;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid #f7980f;
+    font-family: "FREDOKA ONE";
+}
+
+.btn:hover{
+    background-color: #f7980f;
+    color: #fff;
+}
+
+.first-content{
+    display: flex;
+}
+
+.first-column{
+    position: absolute;
+    text-align: center;
+    flex: 0.6 0 auto;
+    z-index: 10;
+    margin-top: -3.1%;
+    margin-left: -4.2%;
+}
+
+.first-column img{
+    width: 60%;
+}
+.first-column div{
+    margin-top: 15px;
+}
+
+.second-column{
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-social-media{
+    display: flex;
+    list-style-type: none;
+}
+.list-social-media a{
+    color: #f7980f;
+}
+.list-social-media a:hover{
+    color: #fff;
+}
+
+.item-social-media{
+    border: 1px solid #f7980f;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align:center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.item-social-media:hover{
+    background-color: #f7980f;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: -10px;
+    border-color: #fff;
+}
+
+.form input{
+    height:45px;
+    border: none;
+    background-color: #ecf0f1;
+    margin: 8px;
+    padding-left: 10px;
+}
+

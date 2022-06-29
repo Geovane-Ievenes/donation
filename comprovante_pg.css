@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('./imagens/bg-pagamento.png');
+}
+.doador{
+	padding-left:500px ;
+	padding-top:50px ;
+	font-family: "fredoka one";
+	font-size: 30px;
+}
+.box-pagamento{
+    padding: 10px;
+	position: absolute;
+	border-radius: 20px;
+	top:200px;
+	left:250px;
+	width: 800px;
+	height: 350px;
+	border: 2px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} 
+.pix{
+    color: black;
+    background-color: rgb(255, 178, 89);
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.num-qtd{
+    font-size: 50px;
+    font-family: Roboto;
+}
+.perfil-projeto{
+    float: right;
+    margin-top: -130px;
+    margin-right: 30px;
+	border-radius: 30%;
+	width: 150px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.fin-donate{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(255, 178, 89);
+    margin-top: 40px;
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.fin-donate:hover{
+    background-color: rgb(255, 178, 89);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+.warning{
+    font-family: Roboto;
+}
+
+.comprovante{
+    margin-top: 30px ;
+    margin-left: 20px;
+}
+input[type=file]{
+    display: none;
+}
+.input-comprovante{
+    margin: 5px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    height: 45px;
+    width: 340px;
+    background: #54719D;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.input-comprovante:hover{
+    color: #ccc;
+
+}

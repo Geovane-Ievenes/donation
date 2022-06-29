@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "FREDOKA ONE";
+    src: url('./FredokaOne-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.content-projects {
+    display: block;
+    width: 90%;
+    z-index: -2;
+    justify-content: center;
+    align-items: center;
+    padding: 220px 0 0 180px;
+}
+.content-projects .section-projects h2 {
+    font-family: "FREDOKA ONE";
+    text-transform: uppercase;
+}
+.content-projects .projeto#p1, .content-projects .projeto#p2, .content-projects .projeto#p3{
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-projects a.mais{
+    background-color: rgb(236, 185, 42);
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    margin: 40px 0 45px 40.6%;
+    padding-top: 15px;
+    display: block;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.content-projects a.mais:hover{
+    background-color: #fff;
+    color: rgb(236, 185, 42);
+    border: 2px solid rgb(236, 185, 42);
+}
+.projeto ul li{
+    cursor: pointer;
+    width:210px;
+    height:210px;
+    margin: 15px 30px 40px 0;  
+    display:inline-block; 
+    background-color: rgb(0, 0, 0);
+}
+.title2{
+    position: absolute;
+    top:520px;
+    left: 150px;
+    margin-top: 30px;
+    width:300px;
+}
+.title3{
+    position: absolute;
+    top:1000px;
+    left: 150px;
+    margin-top: 30px;
+    width:300px;
+}
+.popup{
+    position: fixed;
+    top: 0; bottom: 0; 
+    left: 0; right:0;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border: solid 1px none;
+    border-radius: 10px;
+    background: #fff;
+    display: none;
+    z-index: 20001;
+    box-shadow: 0 0 15px;
+}
+.popup div {
+    padding: 5px;
+}
+.popup .content-project {
+    font-size: 18px;
+}
+.popup .content-project .temas {
+    text-align: center;
+    font-size: 15px;
+}
+.popup div button {
+    width: 150px;
+    height: 60px;
+    font-family: "FREDOKA ONE";
+    border: none;
+    background: #ffe879;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin: 0 145px 0;
+}
+
+#fechar:hover{
+    cursor:pointer;
+}
+
+#cobrir-fundo{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 20000;
+}
+
+/*Project Popup inputs*/ 
+.nome-projeto-popup{
+    font-size: 30px;
+    font-family: "FREDOKA ONE";
+}
+
+/*Single Image*/ 
+
+.projeto ul li.card{
+    border-radius: 10px;
+}
+.projeto ul li.card img{
+    border-radius: 10px 10px 0 0;
+}
+.projeto ul li.card div.card_div{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px rgb(156, 157, 158);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.projeto ul li.card .propriedades_projeto{
+    padding: 5px;
+}
+.projeto ul li.card .nome_projeto{
+    font-size: 20px;
+    font-family: 'FREDOKA ONE';
+    display: block;
+}
+.projeto ul li.card .description_projeto{
+    text-align: center;
+    font-size: 14px;
+}
+
+.projeto ul li:hover{
+    opacity: 0.95;
+    /*Zoom da imagem*/ 
+}
