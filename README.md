@@ -1,2 +1,2 @@
 # donation
-Meu Projeto de TCC | WIP
+Meu Projeto de TCC 
