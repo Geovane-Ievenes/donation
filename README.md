@@ -1,11 +1,4 @@
 # Donation
-Meu Projeto de TCC desenvolvido no ano de 2021
 
-### Partipantes: 
+Uma plataforma web focada em incentivar doações para instituições sociais e ONGs. Projeto de TCC concluído no ano de 2021 para o curso Técnico de informática para internet.
 
-* Geovane Cândido Ievenes (Me)
-* Lucas Barile Passoli
-* Bruno Lopez Moreno
-* Gabriel Duarte Machado
-* Manuela Rios 
-* Nicolas Rocha 
